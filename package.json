@@ -1,0 +1,17 @@
+{
+  "name": "fork-ts-checker-bug-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf ./dist && webpack --mode=none"
+  },
+  "devDependencies": {
+    "fork-ts-checker-webpack-plugin": "^5.1.0",
+    "rimraf": "^3.0.2",
+    "ts-loader": "^8.0.2",
+    "typescript": "3.9.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
